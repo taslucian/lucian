@@ -1,0 +1,154 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+    transition: all 0.3s;
+}
+html{
+    width: 100%;
+}
+body{
+    width: 100%;
+}
+
+.parellex-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    background: radial-gradient(#2c3352 #001d9e);
+    background-image: url('./img/luca-bravo-XJXWbfSo2f0-unsplash.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.huge{
+    font-size: 100px;
+}
+.parellex-header h2{
+    font-size: 60px;
+}
+.nume img{
+    max-width: 300px;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.navbar-brand .brand{
+    color:#c3d4ee;
+    transition: 0.3s;
+}
+.navbar-brand span{
+    color: #ef98a7;
+    transition: 0.3s;
+}
+.navbar-brand:hover span{
+    color: #c3d4ee;
+    
+}
+.navbar-brand:hover .brand{
+    color: #ef98a7;
+}
+.nav-link{
+    color: #c3d4ee;
+}
+.nav-link:hover{
+    color: #ef98a7;
+}
+.first-section{
+    height: 100%;
+    width: 100%;
+    background-color: #392c456f;
+}
+
+.parallax2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./img/binary-ga2b99966d_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.second-section{
+    height: 100%;
+    width: 100%;
+    background-color: #533e6575;
+}
+.text-shadow{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.cards a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.skil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 20px;
+    width: 230px;
+    max-height: 170px;
+    background-color: #604f71;
+    transform: skew(-20deg);
+}
+.ho:hover{
+    text-shadow: none !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    transform: scale(1.1) !important;
+    -ms-transform: scale(1.1) !important;
+    z-index: 2;
+}
+.card{
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.5);
+}
+.cb2{
+    background-color: #604f71e0;
+    transition: 0.5s;
+}
+.cb2:hover{
+    background-color: #604f71;
+}
+.cb2:hover:hover .image{
+    opacity: 1;
+}
+.image{
+    opacity: 0.8;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+.cb2:hover:hover .image{
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .parellex-header {    
+        max-height: 45vh; 
+        background-position: center;
+        background-size: cover;
+        }
+    .nume img{
+        max-width: 150px;
+
+    }
+    .huge{
+        font-size: calc(1.525rem + 2.9vw);
+
+    }
+    .parellex-header h2{
+        font-size: calc(1.525rem + 2.9vw);
+    }
+    .modal{
+        max-width: 300px;
+    }
+    }

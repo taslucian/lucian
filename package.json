@@ -1,0 +1,26 @@
+{
+  "name": "lucian",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel serve src/index.html --public-url / --dist-dir dist",
+    "build": "parcel build src/index.html --public-url ./",
+    "predeploy": "parcel build src/index.html --public-url https://github.com/taslucian/lucian.git",
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.0",
+    "gh-pages": "^4.0.0",
+    "jquery": "^3.6.1",
+    "popper.js": "^1.16.1"
+  }
+}

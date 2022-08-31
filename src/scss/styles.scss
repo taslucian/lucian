@@ -1,0 +1,24 @@
+
+
+$enable-transitions: true;
+$enable-gradients: true;
+
+$primary: #c3d4ee;
+$secondary: #ef98a7;
+$warning: #f7bea9;
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+$custom-theme-colors: (
+    "lucian": #807094,
+    "altdark": #604f71,
+    "altlight": #fcfcfb,
+    "purple":  #6f42c1
+);
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+
+@import "../style.css" 
